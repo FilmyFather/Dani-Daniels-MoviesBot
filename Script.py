@@ -1,10 +1,10 @@
 class script(object):
-    START_TXT = """Hello {mention} 👨‍💻,
+    START_TXT = """**Hello {}** 👨‍💻,
 My Name is <a href='https://t.me/FilmyFather_AdvFilterbot'>Dani Daniels Movies Bot</a>
 I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
 Just Add Me To Your Group And Enjoy Of All Available Movies On Telegram.
 Made With ❤ BY @FilmyFather_BotList"""
-    HELP_TXT = """**Hell'O {mention}**
+    HELP_TXT = """**Hell'O {}**
 **Here is the Help For My Bot Commands.**"""
     ABOUT_TXT = """☞ My Group Name: RequestingHuB 
 ☞ **Developer: @Yuvi_4502**
@@ -108,5 +108,5 @@ Added By - {}
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
-Name - {mention}
+Name - {}
 """
