@@ -1,5 +1,5 @@
 {
-    "name": "SamanthaMoviesBot",
+    "name": "Dani-Daniels-MoviesBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "keywords": [
       "telegram",
@@ -14,9 +14,9 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
-    "logo": "https://telegra.ph/file/b50505fc5da68f48632d2.jpg",
+    "website": "https://github.com/FilmyFather/Dani-Daniels-MoviesBot",
+    "repository": "https://github.com/FilmyFather/Dani-Daniels-MoviesBot",
+    "logo": "https://telegra.ph/file/a3862d3be1149ff161360.jpg",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -24,11 +24,11 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "7588344"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "6ade175bcf8ea4981e3153ef48fe07f5"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -36,15 +36,15 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": ""
+            "value": "1564152071 1893872204 1175094604 1369676998"
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": ""
+            "value": "https://telegra.ph/file/a3862d3be1149ff161360.jpg"
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": ""
+            "value": "-1001519466788"
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
@@ -76,7 +76,7 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": ""
+            "value": "Yuvraj"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
