@@ -1,21 +1,21 @@
 class script(object):
-    START_TXT = """**Hello {}** 👨‍💻,
+    START_TXT = """Hello **{}** 👨‍💻,
 My Name is <a href='https://t.me/FilmyFather_AdvFilterbot'>Dani Daniels Movies Bot</a>
 I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
 Just Add Me To Your Group And Enjoy Of All Available Movies On Telegram.
-Made With ❤ BY @FilmyFather_BotList"""
+**Made With ❤ BY @FilmyFather_BotList**"""
     HELP_TXT = """**Hell'O {}**
 **Here is the Help For My Bot Commands.**"""
     ABOUT_TXT = """☞ My Group Name: RequestingHuB 
-☞ **Developer: @Yuvi_4502**
-☞ **Library: Pyrogram**
-☞ **Language: Python 3**
-☞ **DataBase: Mongo DB**
-☞ **Bot Server: Heroku**
-☞ **Build Status: v1.0.1 [Beta]**
-☞ **Movie Request:<a href='https://t.me/RequestingHuB'>@RequestingHuB**</𝚊>
-☞ **Support Developer: <a href='https://t.me/Yuvi_4502'> @Yuvi_4502**</𝚊>
-☞ **BotsList" : <a href='https://t.me/FilmyFather_BotList'> @FilmyFather_BotList**</𝚊>"""
+**☞ Developer: @Yuvi_4502**
+**☞ Library: Pyrogram**
+**☞ Language: Python 3**
+**☞ DataBase: Mongo DB**
+**☞ Bot Server: Heroku**
+**☞ Build Status: v1.0.1 [Beta]**
+**☞ Movie Request:<a href='https://t.me/RequestingHuB'>@RequestingHuB**</𝚊>
+**☞ Support Developer: <a href='https://t.me/Yuvi_4502'> @Yuvi_4502**</𝚊>
+**☞ BotsList" : <a href='https://t.me/FilmyFather_BotList'> @FilmyFather_BotList**</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/FilmyFather/Dani-Daniels-MoviesBot
