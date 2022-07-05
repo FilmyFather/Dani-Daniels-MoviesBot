@@ -1,33 +1,33 @@
 class script(object):
-    START_TXT = """Hello {} 👨‍💻,
-My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>
+    START_TXT = """Hello {mention} 👨‍💻,
+My Name is <a href='https://t.me/FilmyFather_AdvFilterbot'>Dani Daniels Movies Bot</a>
 I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
-Just Add Me To Your Group And Enjoy Of All Available Movies On TG.
-Made With ❤ BY @TeleRoidGroup"""
-    HELP_TXT = """Hell'O {}
-Here is the Help For My Bot Commands."""
-    ABOUT_TXT = """☞ My Name: Sam Movies
-☞ Developer: @TheTeleRoid
-☞ Library: Pyrogram
-☞ Language: Python 3
-☞ DataBase: Mongo DB
-☞ Bot Server: Heroku
-☞ Build Status: v1.0.1 [Beta]
-☞ Updates:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
-☞ Support: <a href='https://t.me/TeleRoid14'> @𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
-☞ BotsList" : <a href='https://t.me/TheTeleRoid'> @𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
+Just Add Me To Your Group And Enjoy Of All Available Movies On Telegram.
+Made With ❤ BY @FilmyFather_BotList"""
+    HELP_TXT = """**Hell'O {mention}**
+**Here is the Help For My Bot Commands.**"""
+    ABOUT_TXT = """☞ My Group Name: RequestingHuB 
+☞ **Developer: @Yuvi_4502**
+☞ **Library: Pyrogram**
+☞ **Language: Python 3**
+☞ **DataBase: Mongo DB**
+☞ **Bot Server: Heroku**
+☞ **Build Status: v1.0.1 [Beta]**
+☞ **Movie Request:<a href='https://t.me/RequestingHuB'>@RequestingHuB**</𝚊>
+☞ **Support Developer: <a href='https://t.me/Yuvi_4502'> @Yuvi_4502**</𝚊>
+☞ **BotsList" : <a href='https://t.me/FilmyFather_BotList'> @FilmyFather_BotList**</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/PredatorHackerzZ/SamanthaMoviesBot
+- Source - https://github.com/FilmyFather/Dani-Daniels-MoviesBot
 
 <b>DEVS:</b>
-- <a href=https://t.me/TheTeleRoid>Team TeleRoid</a>"""
+- <a href=https://t.me/RequestingHuB>Team FilmyFather</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Samantha maria should have admin privillage.
+1. Dani Daniels should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -38,15 +38,15 @@ Here is the Help For My Bot Commands."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Dani Daniels Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Dani Daniels supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https//t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https//t.me/FilmyFather_Botlist)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -108,5 +108,5 @@ Added By - {}
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
-Name - {}
+Name - {mention}
 """
