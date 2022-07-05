@@ -2,7 +2,7 @@
   <img src="assets/newlogo.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>FilmyFather Dani Didi Bot</b>
 </h1>
 
 
@@ -43,7 +43,7 @@
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
-* Check [info.py](https://github.com/PredatorHackerzZ/MoviesFliterBot/blob/master/info.py) for more
+* Check [info.py](https://github.com/FilmyFather/Dani-Daniels-MoviesBot/blob/master/info.py) for more
 
 
 ## Deploy
@@ -54,7 +54,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/PredatorHackerzZ/SamanthaMoviesRoBot">
+<a href="https://heroku.com/deploy?template=https://github.com/FilmyFather/Dani-Daniels-MoviesBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -63,7 +63,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/PredatorHackerzZ/MoviesFliterBot
+git clone https://github.com/FilmyFather/Dani-Daniels-MoviesBot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -100,8 +100,8 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/TeleRoid14)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeleRoidGroup)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/RequestingHuB)
+[![telegram badge](https://img.shields.io/badge/Telegram-Support-30302f?style=flat&logo=telegram)](https://telegram.dog/Yuvi_4502)
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
