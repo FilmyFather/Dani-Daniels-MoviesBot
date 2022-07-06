@@ -362,13 +362,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/TeleRoid_AutoFilterBot?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/FilmyFather_AdvFilterBot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
             ],[
-            InlineKeyboardButton('⭕ Support ⭕', url='t.me/TeleRoid14'),
-            InlineKeyboardButton('⭕ Updates ⭕', url='https://t.me/TeleRoidGroup')
+            InlineKeyboardButton('⭕ Support ⭕', url='t.me/Yuvi_4502'),
+            InlineKeyboardButton('⭕ Req. Group ⭕', url='https://t.me/RequestingHuB')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('👥 About', callback_data='about')
@@ -400,10 +400,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('⭕ Updates ⭕', url='https://t.me/TeleRoidGroup'),
-            InlineKeyboardButton('⭕ Support ⭕', url='https://t.me/TeleRoid14')
+            InlineKeyboardButton('⭕ Updates ⭕', url='https://t.me/FilmyFather_BotList'),
+            InlineKeyboardButton('⭕ Support ⭕', url='https://t.me/Yuvi_4502')
             ],[
-            InlineKeyboardButton('🚸 Powered By', url='https://t.me/MoviesFlixers_DL'),
+            InlineKeyboardButton('🚸 Powered By', url='https://t.me/RequestingHuB'),
             InlineKeyboardButton('💢 Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
