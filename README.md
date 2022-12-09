@@ -1,3 +1,6 @@
+[![Deploy](https://cdn.scalingo.com/deploy/button.svg)](https://dashboard.scalingo.com/create/app?source=https://github.com/FilmyFather/Dani-Daniels-MoviesBot)
+
+
 <p align="center">
   <img src="assets/newlogo.jpg" alt="Eva Maria Logo">
 </p>
